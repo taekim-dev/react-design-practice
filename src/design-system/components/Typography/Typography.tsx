@@ -2,7 +2,7 @@ import React from 'react';
 import { typography } from '../../theme';
 
 interface TypographyProps {
-  variant?: 'h1' | 'h2' | 'body';
+  variant?: 'h1' | 'h2' | 'h3' | 'body';
   children: React.ReactNode;
   color?: string;
 }

@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+.showcase {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.showcase-section {
+  margin-bottom: 3rem;
+}
+
+.component-grid {
+  display: grid;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.component-group {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Responsive grid */
+@media (min-width: 768px) {
+  .component-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .component-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
