@@ -55,12 +55,12 @@ export const Button: React.FC<ButtonProps> = ({
       case 'medium':
         return {
           padding: '0.75rem 1.5rem',
-          fontSize: '1rem',
+          fontSize: '1.2rem',
         };
       case 'large':
         return {
           padding: '1rem 2rem',
-          fontSize: '1.125rem',
+          fontSize: '1.5rem',
         };
     }
   };
