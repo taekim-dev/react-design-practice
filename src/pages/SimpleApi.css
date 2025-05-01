@@ -1,0 +1,25 @@
+.simple-api-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.input-section {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.post-input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.post-input:focus {
+  outline: none;
+  border-color: #007bff;
+} 

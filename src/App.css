@@ -78,3 +78,20 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.home {
+  text-align: center;
+  padding: 2rem;
+}
