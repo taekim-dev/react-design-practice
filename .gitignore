@@ -159,3 +159,9 @@ yarn-debug.log*
 yarn-error.log*
 
 *storybook.log
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
